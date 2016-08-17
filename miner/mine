@@ -1,0 +1,13 @@
+<?php
+
+include "miner.php";
+
+$miner = new Miner();
+
+$miner->start();
+
+//$miner->parseResult("data/1674dac6205b449fab3c7583ae40f8d2_ecilpojl_7C97746768762A7B1E06644F3F36C3D7.json");
+
+//$miner->findCheap(10000);
+
+

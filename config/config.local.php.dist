@@ -1,0 +1,15 @@
+<?php
+
+return [
+	"apikey" => "",				// SkyScanner API key
+	"country" => "FI",			// Country searching from
+	"currency" => "EUR",			// Currecy for prices
+	"locale" => "fi-FI",			// Locale
+	"origins" => [],			// IATA codes for origin airports
+	"destinations" => [],			// IATA codes for destination airports
+	"firstoutbound" => "",			// YYYY-MM-DD date
+	"minlength" => 9,			// Minimun length of stay in days
+	"lastarrival" => "",			// Arrive before YYYY-MM-DD
+	"adults" => 1,				// Number of adults
+	"flightsundereur" => 600		// Max flight price
+];
